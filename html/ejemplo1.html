@@ -1,0 +1,91 @@
+<!Doctype html>
+<html lang="es">
+<head>
+<meta charset="uf-8"/>
+<title>Eventos</title>
+<link rel="stylesheet" href="../estilos/estilos.css/">
+<script src="../JS/eventos.js
+ >
+
+</script>
+
+
+</head>
+<body>
+
+<section>
+<header> Uso de Controles de Formulario</header>
+<Section>
+<form action="javascript: void(o)" name="frmEjemplo"
+<table>
+<tr> 
+<td> 
+<label for="txtfoco" > Haga clic en la caja de texto:</label>
+</td>
+<td>
+<input type="text" name="txtfoco" size="5" onfocus="foco();"/>
+
+</td>
+</tr> 
+<tr> 
+<td> 
+<label for="texttecla" >Ingrese Datos con el teclado:</label>
+</td>
+<td>
+<input type="text" name="txttecla" size="5" onkeypress="tecla()";"/>
+
+
+</td>
+</tr> 
+<tr> 
+<td> 
+<label for="selopciones" > Seleccione una de las opciones:</label>
+</td>
+<td>
+<select name="selOpciones" onchange="cambioOpciones(this.options[this.SelectedIndex].value)"
+<option value "Primera opcion" > Primera opci&oacute;n</option>
+<option value "Segunda opcion" > Segunda opci&oacute;n</option>
+
+<option value "Tercera opcion" > Tercera opci&oacute;n</option>
+</select>
+</td>
+</tr> 
+<tr> 
+<td rowspan="3"> 
+<label for="chkcasillas" class="fieldLabel" >Marque una o Varias Casiilas:</label>
+</td>
+<td>
+<input type="checkbox" name="chkcasillas" value="Primera Casilla" class="formInputcheck" onclick="activarCasilla(this, this.value)";"/>
+
+
+</td>
+</tr> 
+<tr> 
+<td > 
+<l<input type="checkbox" name="chkcasillas" value="Segunda Casilla" class="formInputcheck" onclick="activarCasilla(this, this.value)";"/>abel for="chkcasillas" class="fieldLabel" >Marque una o Varias Casiilas:</label>
+</td>
+<td>
+<input type="checkbox" name="chkcasillas" value="Tercera  Casilla" class="formInputcheck" onclick="activarCasilla(this, this.value)";"/>
+
+
+</td>
+</tr> 
+<tr>
+<td colspan="2">
+<input type="button" value="Materia" class="formInputButton" onclick="pulsa();"
+
+
+
+</td>
+
+</tr>
+</table>
+
+</form>
+</section>
+</section>
+</body>
+
+
+
+</html>
