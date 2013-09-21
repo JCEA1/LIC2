@@ -1,0 +1,33 @@
+*{
+	background: rbd(234,185,45);
+	
+	}
+	
+	header{
+		color:#191970;
+      display: block;
+     margin-bottom: 4em;
+     font-weight: bold;
+     text-align: center;
+     text-shadow: 5px 5px 10px rgba(#255,255,255,0.5);
+     		
+		}
+		
+		table {
+         border:solid 1px #0000000;
+         margin: 0 auto;
+         text-align: left;
+         width: 50%;			
+			}
+			
+			table td{
+             padding: 4px 3px;				
+				}
+				
+				table tbody td{
+               border-left:1px solid #E1EEF4;
+               color: #004968;
+               font-size: 12px;
+               font-weight: normal;
+               					
+					}
